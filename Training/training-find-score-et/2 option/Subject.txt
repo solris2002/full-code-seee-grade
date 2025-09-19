@@ -1,0 +1,195 @@
+
+Giải tích II
+Giải tích I
+Phương pháp tính
+Đại số
+Giải tích III
+Xác suất thống kê
+Lý thuyết mạch
+Vật lý điện tử
+Vật lý đại cương I
+Tín hiệu và hệ thống
+Vật lý đại cương II
+Cấu trúc dữ liệu và giải thuật
+Điện tử số
+Cấu kiện điện tử
+Điện tử tương tự I
+Trường điện từ
+Thông tin số
+Pháp luật đại cương
+Công tác quốc phòng-An ninh
+Đồ án thiết kế I
+Anten và truyền sóng
+Đường lối quân sự
+Xử lý tín hiệu số
+Kỹ thuật vi xử lý
+Thực tập cơ bản
+Tin học đại cương
+Cơ sở kỹ thuật đo lường
+Kỹ thuật phần mềm ứng dụng
+Nhập môn kỹ thuật điện tử-viễn thông
+Điện tử tương tự II
+Technical Writing and Presentation
+Cơ sở truyền số liệu
+QS chung và KCT bắn súng AK
+Thực tập kỹ thuật
+Đồ án thiết kế II
+Hệ thống viễn thông
+Lý thuyết mật mã
+Kỹ thuật lập trình C/C++
+Kỹ năng mềm
+Tâm lý học ứng dụng
+Hệ điều hành
+Đường lối CM của ĐCSVN
+Lý luận TDTT
+Tiếng Anh 2
+Mạng máy tính
+Tư tưởng HCM
+Lý thuyết thông tin
+Tư duy công nghệ và thiết kế kỹ thuật
+Triết học Mác - Lênin
+Kinh tế chính trị Mác - Lênin
+Văn hóa kinh doanh và tinh thần khởi nghiệp
+Tư tưởng Hồ Chí Minh
+Chủ nghĩa xã hội khoa học
+Lịch sử Đảng cộng sản Việt Nam
+Thiết kế mỹ thuật công nghiệp
+Đồ án tốt nghiệp cử nhân
+
+
+Đồ án thiết kế III
+Thực tập cuối khóa
+Những NLCB của CNML I
+Những NLCB của CNML II
+Đồ án tốt nghiệp kỹ sư
+Trí tuệ nhân tạo và ứng dụng
+Tiếng Anh 1
+Hệ thống nhúng và thiết kế giao tiếp nhúng
+Kiến trúc máy tính
+Phân tích và thiết kế hướng đối tượng
+Lập trình nâng cao
+Ngôn ngữ lập trình
+An toàn bức xạ và an toàn điện trong y tế
+Chạy
+Bóng đá 1
+Xử lý ảnh số
+Cầu lông 1
+Bóng bàn 1
+Lập trình ứng dụng di động
+Viễn thám và GIS
+Bóng chuyền 1
+Cơ sở truyền tin
+Thông tin quang sợi
+Giáo dục thể chất A
+Bóng rổ 1
+Thông tin di động
+Quy hoạch và quản lý mạng viễn thông
+Nhảy xa
+Erobic
+Đa phương tiện
+Bơi lội
+Nhảy cao
+Mạng thông tin
+Thông tin vô tuyến
+Thiết kế VLSI
+Kỹ thuật siêu cao tần
+Thể dục tay không
+Karatedo
+Taekwondo 1
+Thiết kế mỹ thuật công nghiệp
+Thông tin vệ tinh
+Quản trị học đại cương
+Cầu lông 2
+Thiết kế, tổng hợp hệ thống số
+Bóng đá 2
+Thiết kế IC tương tự
+Điện tử công suất
+Bóng bàn 2
+Kỹ thuật lập trình nội dung số
+Cơ sở điện sinh học
+Cảm biến và KT đo lường y sinh
+Công nghệ chẩn đoán hình ảnh I
+Giải phẫu và sinh lý học
+Thiết bị điện tử y sinh I
+Bóng rổ 2
+Bóng chuyền 2
+Y học hạt nhân và kỹ thuật xạ trị
+Công nghệ chẩn đoán hình ảnh II
+Quản lý trang thiết bị y tế
+Thiết bị điện tử y sinh II
+Xử lý ảnh y tế
+Hệ thống thông tin y tế
+TOEIC 400
+Đồ án nghiên cứu Cử nhân (KT Điện tử - Viễn thông)
+Mạch xử lý tín hiệu y sinh
+Thực tại ảo và thực tại tăng cường
+TOEIC 350
+Kỹ thuật truyền hình
+Bóng đá 3
+Tiếng Anh cơ sở 2
+Xử lý tín hiệu âm thanh
+Đồ họa máy tính
+Mạng thông tin hàng không
+Hệ thống thông tin đa phương tiện
+Tiếng Anh Aptis trình độ B1
+Thiết kế quảng bá sản phẩm
+Tiếng Anh English Discoveries 3
+Định vị sử dụng vệ tinh
+Đổi mới sáng tạo và khởi nghiệp
+Chuyên sâu Bóng chuyền 5
+Chuyên sâu Bóng chuyền 3
+Chuyên sâu Bóng chuyền 2
+Chuyên sâu Bóng chuyền 4
+Chuyên sâu Bóng chuyền 1
+Tiếng Anh English Discoveries 5
+Tiếng Anh định hướng TOEIC 500
+Chuyên sâu Bóng đá 3
+Chuyên sâu Bóng đá 2
+Tiếng Anh English Discoveries 2
+Chuyên sâu Bóng rổ 3
+Chuyên sâu Bóng rổ 5
+Chuyên sâu bóng chuyền A
+Chuyên sâu Bóng rổ 2
+Chuyên sâu Bóng rổ 4
+Chuyên sâu Bóng đá 5
+Chuyên sâu Bóng đá 4
+Chuyên sâu bóng đá A
+Chuyên sâu bóng rổ A
+Lập trình web và ứng dụng di động
+Chuyên sâu Bóng đá 1
+Chuyên sâu Bóng rổ 1
+Bóng rổ 3
+Phương pháp tính và MATLAB
+Tâm lý học
+Kỹ thuật điện tử
+Đường lối quốc phòng và an ninh của Đảng Cộng sản Việt Nam
+Tiếng Anh cơ sở 1
+Nhập môn kỹ thuật hóa học
+Hóa học 1
+Thực tập tốt nghiệp
+Cơ khí đại cương
+Nhập môn kỹ thuật cơ khí động lực
+Thuật toán ứng dụng
+IELTS Speaking 1
+Grammar for Writing
+English Communication Skills 1
+English Communication Skills 2
+Skills Integration 2
+Skills Integration 1
+Foundation Writing for IELTS
+IELTS Reading 2
+IELTS Writing 2
+IELTS Listening 2
+IELTS Speaking 2
+IELTS Writing 1
+IELTS Reading 1
+IELTS Listening 1
+Kiểm chứng và kiểm tra vi mạch
+Kỹ thuật chiến đấu bộ binh và chiến thuật
+Quân sự chung
+Đồ án 3: Định hướng công nghệ
+Công tác quốc phòng và an ninh
+Đo lường y sinh
+Tiếng Anh định hướng TOEIC 400
+Đồ án I
+Công nghệ chuẩn đoán hình ảnh I

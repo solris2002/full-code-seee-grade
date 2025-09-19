@@ -1,0 +1,104 @@
+ 
+["Giải tích II", "Giải tích I", "Phương pháp tính", "Đại số", "Giải tích III",
+    "Xác suất thống kê", "Vật lý đại cương II", "Vật lý đại cương I", "Tin học đại cương", "Vật lý điện tử",
+    "Nhập môn kỹ thuật điện tử-viễn thông",
+    "Thực tập cơ bản",
+    "Technical Writing and Presentation",
+    "Kỹ thuật lập trình C/C++",
+    "Cấu kiện điện tử",
+    "Lý thuyết mạch",
+    "Tín hiệu và hệ thống",
+    "Lý thuyết thông tin",
+    "Cơ sở kỹ thuật đo lường",
+    "Cấu trúc dữ liệu và giải thuật",
+    "Trường điện từ",
+    "Điện tử số",
+    "Điện tử tương tự I",
+    "Điện tử tương tự II",
+    "Thông tin số",
+    "Kỹ thuật phần mềm ứng dụng",
+    "Anten và truyền sóng",
+    "Đồ án thiết kế I",
+    "Kỹ thuật vi xử lý",
+    "Đồ án thiết kế II",
+    "Xử lý tín hiệu số",
+    "Lý thuyết mật mã",
+    "Cơ sở truyền số liệu",
+    "Mạng máy tính",
+    "Hệ thống viễn thông",
+    "Hệ điều hành",
+    "Thông tin vô tuyến",
+    "Cơ sở điện sinh học",
+    "Cảm biến và KT đo lường y sinh",
+    "Thiết bị điện tử y sinh I",
+    "Giải phẫu và sinh lý học",
+    "Mạch xử lý tín hiệu y sinh",
+    "Công nghệ chẩn đoán hình ảnh I",
+    "Truyền số liệu và chuyển tiếp điện văn",
+    "Định vị và dẫn đường điện tử",
+    "Đa phương tiện",
+    "Kỹ thuật truyền hình",
+    "Thiết kế IC tương tự",
+    "Thiết kế VLSI",
+    "Kiểm chứng và kiểm tra vi mạch",
+    "Cơ sở công nghệ vi điện tử",
+    "Hệ thống nhúng và thiết kế giao tiếp nhúng"
+]
+
+Toán:
+
+"Giải tích II", "Giải tích I", "Phương pháp tính", "Đại số", "Giải tích III",
+    "Xác suất thống kê", "Vật lý đại cương II", "Vật lý đại cương I", "Tin học đại cương", "Vật lý điện tử"
+
+Cơ sở cốt lõi ngành
+[
+    "Nhập môn kỹ thuật điện tử-viễn thông",
+    "Thực tập cơ bản",
+    "Technical Writing and Presentation",
+    "Kỹ thuật lập trình C/C++",
+    "Cấu kiện điện tử",
+    "Lý thuyết mạch",
+    "Tín hiệu và hệ thống",
+    "Lý thuyết thông tin",
+    "Cơ sở kỹ thuật đo lường",
+    "Cấu trúc dữ liệu và giải thuật",
+    "Trường điện từ",
+    "Điện tử số",
+    "Điện tử tương tự I",
+    "Điện tử tương tự II",
+    "Thông tin số",
+    "Kỹ thuật phần mềm ứng dụng",
+    "Anten và truyền sóng",
+    "Đồ án thiết kế I",
+    "Kỹ thuật vi xử lý",
+    "Đồ án thiết kế II",
+    "Xử lý tín hiệu số"
+]
+
+Module
+[
+    "Lý thuyết mật mã",
+    "Cơ sở truyền số liệu",
+    "Mạng máy tính",
+    "Hệ thống viễn thông",
+    "Hệ điều hành",
+    "Thông tin vô tuyến",
+    "Cơ sở điện sinh học",
+    "Cảm biến và KT đo lường y sinh",
+    "Thiết bị điện tử y sinh I",
+    "Giải phẫu và sinh lý học",
+    "Mạch xử lý tín hiệu y sinh",
+    "Công nghệ chẩn đoán hình ảnh I",
+    "Truyền số liệu và chuyển tiếp điện văn",
+    "Định vị và dẫn đường điện tử",
+    "Đa phương tiện",
+    "Kỹ thuật truyền hình",
+    "Thiết kế IC tương tự",
+    "Thiết kế VLSI",
+    "Kiểm chứng và kiểm tra vi mạch",
+    "Cơ sở công nghệ vi điện tử",
+    "Hệ thống nhúng và thiết kế giao tiếp nhúng"
+]
+
+
+

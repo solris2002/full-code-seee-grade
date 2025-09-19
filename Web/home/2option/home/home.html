@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dự đoán kết quả học tập</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favico.png">
+</head>
+
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Đổi chế độ giao diện" aria-pressed="false">
+    <span class="icon" aria-hidden="true">☀️</span>
+    <span class="sr-only">Đổi chế độ giao diện</span>
+  </button>
+
+  <div class="content">
+    <header>
+      <h1>DỰ ĐOÁN KẾT QUẢ HỌC TẬP SINH VIÊN</h1>
+      <h2>Chọn chức năng bạn muốn sử dụng</h2>
+    </header>
+
+    <!-- Lựa chọn -->
+    <div class="options">
+      <a href="./hd-cpa-gpa.html" class="option">
+        🎓 Hướng dẫn dự đoán CPA/GPA
+      </a>
+      <a href="./hd-du-doan-diem-so.html" class="option">
+        📊 Hướng dẫn dự đoán điểm từng môn
+      </a>
+    </div>
+
+    <!-- Nút -->
+    <div class="buttons">
+      <a href="https://hust-grade-cpa-gpa.streamlit.app/" class="btn" target="_blank" rel="noopener noreferrer">Dự đoán CPA /
+        GPA</a>
+      <a href="https://hust-grade-course.streamlit.app/" class="btn" target="_blank" rel="noopener noreferrer">Dự đoán
+        điểm từng môn</a>
+    </div>
+
+    <!-- Video + QR -->
+    <div class="media-wrap">
+      <div class="media">
+        <!-- QR trái -->
+        <div class="qr-card">
+          <img src="./img/donate-qr.jpg" alt="QR Donate dự án">
+          <p class="qr-title">Donate dự án</p>
+        </div>
+
+        <div class="slider">
+          <button class="slider-btn prev">&#10094;</button>
+          <div class="slider-track">
+            <div class="slide">
+              <img src="./img/huong_dan_1_light.jpg" data-light="./img/huong_dan_1_light.jpg"
+                data-dark="./img/huong_dan_1_dark.png" alt="Slide 1">
+              <button class="zoom-btn">🔍</button>
+            </div>
+            <div class="slide">
+              <img src="./img/huong_dan_2_light.jpg" data-light="./img/huong_dan_2_light.jpg"
+                data-dark="./img/huong_dan_2_dark.png" alt="Slide 2">
+              <button class="zoom-btn">🔍</button>
+            </div>
+
+          </div>
+          <button class="slider-btn next">&#10095;</button>
+        </div>
+
+        <!-- Modal -->
+        <div id="imageModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modalImg">
+        </div>
+
+        <!-- QR phải -->
+        <div class="qr-card">
+          <img src="./img/survey-qr.jpg" alt="QR Khảo sát góp ý">
+          <p class="qr-title">Khảo sát góp ý</p>
+        </div>
+      </div>
+
+      <!-- Khi màn nhỏ, xếp hai QR thành hàng dưới -->
+      <div class="qr-row" style="display:none"></div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

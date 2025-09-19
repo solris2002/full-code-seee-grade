@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Dự đoán kết quả học tập</title>
+<style>
+  :root{
+    --text:#1f3b63;
+    --card:#ffffff;
+    --stroke:#e6e9ef;
+    --btn1:#3b82f6; /* blue-500 */
+    --btn2:#2563eb; /* blue-600 */
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:ui-sans-serif,system-ui,Arial;
+    color:var(--text); background:#fff;
+  }
+  header{ text-align:center; padding:40px 16px 10px }
+  h1{ margin:0 0 8px; letter-spacing:.5px }
+  h2{ margin:0 0 24px; font-weight:500; color:#2d4468 }
+
+  .options, .buttons{
+    display:flex; gap:24px; justify-content:center; flex-wrap:wrap;
+    padding:0 16px; margin-bottom:18px;
+  }
+  .option{
+    display:flex; align-items:center; gap:10px;
+    background:var(--card); border:1px solid var(--stroke);
+    padding:10px 18px; border-radius:10px;
+    box-shadow:0 2px 6px rgba(16,24,40,.04);
+  }
+  .option input{ accent-color:#2563eb; transform:scale(1.15) }
+
+  .btn{
+    padding:14px 28px; border-radius:10px; border:none;
+    font-weight:700; color:#fff; text-decoration:none; display:inline-block;
+    background:linear-gradient(90deg, var(--btn1), var(--btn2));
+    box-shadow:0 6px 18px rgba(37,99,235,.25); transition:.25s transform;
+  }
+  .btn:hover{ transform:translateY(-2px) scale(1.02) }
+
+  /* --- Video + QR layout --- */
+  .media-wrap{
+    max-width:1100px; margin:24px auto 48px; padding:0 16px;
+  }
+  .media{
+    display:grid; grid-template-columns:240px 1fr 240px; gap:18px;
+    align-items:start;
+  }
+  .qr-card{
+    background:#fff; border:1px solid var(--stroke); border-radius:12px;
+    padding:14px; text-align:center; box-shadow:0 2px 10px rgba(16,24,40,.06);
+  }
+  .qr-card img{ width:100%; height:auto; border-radius:8px }
+  .qr-title{ margin:8px 0 0; font-weight:600; font-size:14px }
+
+  .video-card{
+    background:#fff; border:1px solid var(--stroke); border-radius:14px;
+    padding:10px; box-shadow:0 2px 12px rgba(16,24,40,.08);
+  }
+  .video-card iframe{
+    width:100%; aspect-ratio:16/9; border:0; border-radius:10px;
+  }
+  .video-empty{
+    display:flex; align-items:center; justify-content:center;
+    height:100%; min-height:320px; color:#64748b; font-size:15px;
+  }
+
+  @media (max-width:1024px){
+    .media{ grid-template-columns:1fr; }
+    .qr-row{ display:flex; gap:16px; }
+    .qr-card{ flex:1 }
+  }
+  body {
+    background: linear-gradient(180deg, #ECF3FF 0%, #FFFFFF 100%);
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1>DỰ ĐOÁN KẾT QUẢ HỌC TẬP SINH VIÊN</h1>
+    <h2>Chọn chức năng bạn muốn sử dụng</h2>
+  </header>
+
+  <!-- Lựa chọn -->
+  <div class="options">
+    <label class="option">
+      <input type="radio" name="feature" value="cpa" checked>
+      🎓 Dự đoán CPA/GPA
+    </label>
+    <label class="option">
+      <input type="radio" name="feature" value="et">
+      📊 Dự đoán điểm từng môn (ET)
+    </label>
+    <label class="option">
+      <input type="radio" name="feature" value="ee">
+      🧾 Dự đoán điểm từng môn (EE)
+    </label>
+  </div>
+
+  <!-- Nút -->
+  <div class="buttons">
+    <a href="https://cpa-gpa.streamlit.app/" class="btn">Dự đoán CPA / GPA</a>
+    <a href="https://find-subject-score.streamlit.app/" class="btn">Dự đoán điểm từng môn (ET)</a>
+    <a href="" class="btn">Dự đoán điểm từng môn (EE)</a>
+  </div>
+
+  <!-- Video + QR -->
+  <div class="media-wrap">
+    <div class="media">
+      <!-- QR trái -->
+      <div class="qr-card">
+        <img src="img/donate-qr.jpg" alt="QR Donate dự án">
+        <p class="qr-title">Donate dự án</p>
+      </div>
+
+      <!-- Video giữa -->
+      <div class="video-card" id="videoSlot">
+        <div class="video-empty" id="videoEmpty">Hãy chọn một tùy chọn ở trên để xem video hướng dẫn.</div>
+        <iframe id="ytFrame" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display:none"></iframe>
+      </div>
+
+      <!-- QR phải -->
+      <div class="qr-card">
+        <img src="img/survey-qr.jpg" alt="QR Khảo sát góp ý">
+        <p class="qr-title">Khảo sát góp ý</p>
+      </div>
+    </div>
+
+    <!-- Khi màn nhỏ, xếp hai QR thành hàng dưới -->
+    <div class="qr-row" style="display:none"></div>
+  </div>
+
+<script>
+  // ---- Cấu hình video cho từng lựa chọn ----
+  // Điền ID YouTube (ví dụ: "dQw4w9WgXcQ") hoặc dán FULL URL.
+  const VIDEOS = {
+    cpa: "", // Video hướng dẫn cho CPA/GPA
+    et:  "", // Video hướng dẫn cho từng môn (ET)
+    ee:  ""  // Video hướng dẫn cho từng môn (EE)
+  };
+
+  // Helper: lấy embed URL từ ID/URL
+  function toEmbed(urlOrId){
+    if(!urlOrId) return "";
+    try{
+      // Nếu là full URL -> lấy v=
+      const u = new URL(urlOrId);
+      const id = u.searchParams.get("v") || u.pathname.split("/").pop();
+      return "https://www.youtube.com/embed/" + id;
+    }catch(_){
+      // Nếu chỉ là ID
+      return "https://www.youtube.com/embed/" + urlOrId;
+    }
+  }
+
+  const frame = document.getElementById("ytFrame");
+  const empty = document.getElementById("videoEmpty");
+
+  function showVideo(key){
+    const embed = toEmbed(VIDEOS[key]);
+    if(embed){
+      frame.src = embed;
+      frame.style.display = "block";
+      empty.style.display = "none";
+    } else {
+      frame.src = "";
+      frame.style.display = "none";
+      empty.style.display = "flex";
+      empty.textContent = "Chưa cấu hình video cho mục này. Vui lòng thêm ID/URL YouTube trong mã.";
+    }
+  }
+
+  // Chọn mặc định (theo radio đang checked)
+  const initChecked = document.querySelector('input[name="feature"]:checked')?.value || "cpa";
+  showVideo(initChecked);
+
+  // Lắng nghe thay đổi
+  document.querySelectorAll('input[name="feature"]').forEach(r => {
+    r.addEventListener("change", e => showVideo(e.target.value));
+  });
+</script>
+</body>
+</html>
