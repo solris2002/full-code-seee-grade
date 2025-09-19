@@ -48,11 +48,10 @@ streamlit run app.py
 │   └── training-find-score-ee/    # Huấn luyện EE2 (kế thừa từ ET1)
 │
 ├── Web/                           # Ứng dụng web
-│   ├── home/                      # Trang HTML tĩnh, giao diện chính
-│   ├── cpa-gpa/                   # Dự đoán CPA & GPA (Streamlit app)
-│   └── hust-grade-course/         # Dự đoán điểm môn học (Streamlit app)
-│
-└── requirements.txt
+    ├── home/                      # Trang HTML tĩnh, giao diện chính
+    ├── cpa-gpa/                   # Dự đoán CPA & GPA (Streamlit app)
+    └── hust-grade-course/         # Dự đoán điểm môn học (Streamlit app)
+
 ```
 
 ## Tính năng chính
